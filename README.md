@@ -6,6 +6,7 @@ It will only log asset once
 # Filesystem
 * ```assets``` - Hold sample asset json file
 * ```input``` - Hold sample lightning input file
+* ```libs``` - Contains libraries used in the program
 * ```src``` - Contains main file which performs the program
 
 # Requirements
@@ -21,5 +22,5 @@ Clone the repository in your local machine
 3. Run command 'java --class-path ../libs/jar/ethlo.jquad.jar:../libs/jar/json-simple-1.1.jar  Lightning.java'
 
 # Libraries used
-jquad - Used for computing quadkey to lon/lat (https://github.com/ethlo/jquad)
-JSONParser - Parse json text file
+1. jquad - Used for computing quadkey to lon/lat (https://github.com/ethlo/jquad)
+2. JSONParser - Parse json text file
